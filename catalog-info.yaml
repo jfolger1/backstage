@@ -8,5 +8,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: team-a
-  dependsOn: ['backstage']
+  dependsOn: ['component: backstage']
   apiConsumedBy: ['component:SBapp1']
