@@ -8,6 +8,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: team-a
-  system: artist-engagement-portal
   dependsOn: ['backstage']
   apiConsumedBy: ['component:SBapp1']
